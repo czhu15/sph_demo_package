@@ -40,6 +40,7 @@ then
 	cp ./aipg_inference-platform_sw/build/sph_ep/Release/host/bin/nnpi_* $DIR/bin
 	cp ./aipg_inference-platform_sw/build/sph_ep/Release/host/bin/sph_* $DIR/bin
 	cp ./aipg_inference-dl/build/bin/intel64/Release/gt_sample $DIR/bin
+	cp ./aipg_inference-inference_api/build_linux/sph_ep/Release/bin/inference_sample $DIR/bin
 
 	# nnpi libary files
 	cp ./aipg_inference-dl/build/bin/intel64/Release/lib/libnnpi_transformer.so $DIR/lib
@@ -54,6 +55,7 @@ else
 	cp ./aipg_inference-platform_sw/build/sph_ep/Debug/host/bin/nnpi_* $DIR/bin
 	cp ./aipg_inference-platform_sw/build/sph_ep/Debug/host/bin/sph_* $DIR/bin
 	cp ./aipg_inference-dl/build/bin/intel64/Debug/gt_sample $DIR/bin
+	cp ./aipg_inference-inference_api/build_linux/sph_ep/Debug/bin/inference_sample $DIR/bin
 
 	# nnpi libary files
 	cp ./aipg_inference-dl/build/bin/intel64/Debug/lib/libnnpi_transformer.so $DIR/lib
